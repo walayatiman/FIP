@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 767px) and (orientation: portrait) {
+  .hide-clipath {
+    clip-path: none !important;
+  }
+}
